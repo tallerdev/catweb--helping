@@ -1,7 +1,7 @@
 this is a note for a user whose roblox user is BLOODHOUND
 
 Sorry for the silence,
-you don't need to make aa compiler or anything though if you do it's impressive
+you don't need to make a compiler or anything though if you do it's impressive
 you just need python from python.org installed on your computer
 then just run it in vscode, then stop it and open output.txt
 you should see a catweb JSON "Magically" appear there, select all (ctrl + a/ cmd + a on mac) and either copy(not reccomended) or cut(reccomended) it
