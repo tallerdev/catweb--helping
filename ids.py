@@ -30,3 +30,6 @@ ids = generate_ids(SYMBOLS)
 
 for k, v in ids.items():
     print(v, "->", k)
+    
+def MakeJson(table):
+    # sry for late
