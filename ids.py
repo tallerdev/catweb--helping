@@ -13,23 +13,12 @@ SYMBOLS = [
     "ö","÷","ø","ù","ú","û","ü","ý","þ","ÿ"
 ]
 
-def generate_ids(symbols):
-    ids = {}
-    for i, symbol in enumerate(symbols):
-        if i < 10:
-            ids[symbol] = f"{i}"
-        elif i < 100:
-            ids[symbol] = f"{i:02d}"
-        elif i < 1000:
-            ids[symbol] = f"{i:03d}"
-        else:
-            ids[symbol] = f"{i:04d}"
-    return ids
-
-ids = generate_ids(SYMBOLS)
-
-for k, v in ids.items():
-    print(v, "->", k)
+def GenerateIds(table):
+    OutputTable = []
+    id = 0
+    for symbol in table:
+        # idk if ur seein'this but gimmie a sec i needa import this into vscode
+        
     
 def MakeJson(table):
     # sry for late
